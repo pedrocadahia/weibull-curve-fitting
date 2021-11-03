@@ -116,7 +116,7 @@ def adjust_weibull(df, iterator_columns, grps_check, show_plot=False):
 # PARAMS
 filename= 'file_path/filename.xlsx'
 iterator_columns = ['Sub-Brand', 'Channel', "Campaign"]
-sheet_to_read = "SatRaw_Data_Output_Campaign"
+sheet_to_read = "sheet_to_read"
 
 # Read Csv
 df = pd.read_excel(filename, sheet_name=sheet_to_read)
